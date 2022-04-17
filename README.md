@@ -35,6 +35,8 @@ class Alert {
 }
 ```
 
+Title est le titre qui sera affiché en haut de la popup, c'est une chaine de charactères. Text est le contenu du message de la popup, il est lui aussi sous chaine de charactère. BackgroundColor est la couleur de la pop up, on saisi alors la couleur sous forme de chaine (ex: "red", "yellow", "green"). Buttons finnalement est un tableau d'objets buttons.
+
 ### Autres
 
 Il y a **deux type de résultats** pour cette méthode, HttpResult et HttpResult<T>. HttpResult est construit de la manière suivante :
