@@ -1,16 +1,13 @@
 # Javascript alert
-
-[![forthebadge](https://img.shields.io/nuget/v/ThomasBernard.CsharpTools)](https://www.nuget.org/packages/ThomasBernard.CsharpTools/)
-[![forthebadge](https://img.shields.io/nuget/dt/ThomasBernard.CsharpTools)](https://www.nuget.org/packages/ThomasBernard.CsharpTools/)
-[![forthebadge](https://img.shields.io/github/languages/code-size/DevIceCorp/CsharpTools)](https://www.nuget.org/packages/ThomasBernard.CsharpTools/)
+[![forthebadge](https://img.shields.io/github/languages/code-size/ThomasBernard03/AlertJs)](https://github.com/ThomasBernard03/AlertJs)
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com)
+[![forthebadge]([![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com))](https://forthebadge.com)
 
 ## Pour commencer
 
-Ce projet à été mis en place afin de créer des composants javascript natifs
+Ce projet à été mis en place afin de créer des composants javascript natifs. Vous pouvez tester des exemples d'alerts en cliquant sur ce lien : https://thomasbernard03.github.io/AlertJs/
 
 
 ## Design
