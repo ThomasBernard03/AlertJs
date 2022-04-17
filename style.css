@@ -1,0 +1,19 @@
+*{
+    border: none;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.testButton{
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #3C90E7;
+    color: white;
+}

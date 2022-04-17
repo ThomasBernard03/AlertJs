@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <style>
+    </style>
+</head>
+<body>
+
+    <div>
+        <button class="testButton" onclick="alert1button()">Display alert popup</button>
+        <button class="testButton" onclick="alert2button()">Display alert popup</button>
+        <button class="testButton" onclick="alert3button()">Display alert popup</button>
+        <button class="testButton" onclick="crazyAlert()">Crazy alert popup</button>
+    </div>
+
+
+
+    <script>
+        function alert1button(){
+            const cancelButton = new Button("Cancel", "green", enableWindow); // If click close the pop up
+
+            var text = "This is a native js alert with one button";
+            const alerte = new Alert("Javascript alert", text, "white", [cancelButton]);
+
+            new window.alert(alerte);
+        }
+
+        function alert2button(){
+            const cancelButton = new Button("Cancel", "purple", enableWindow); // If click close the pop up
+            const confirmButton = new Button("Confirm", "blue", buttonClicked); // If click close the pop up
+
+            var text = "This is a native js alert with two buttons";
+            const alerte = new Alert("Javascript alert", text, "white", [cancelButton, confirmButton]);
+
+            new window.alert(alerte);
+        }
+
+        function alert3button(){
+            const editButton = new Button("Edit", "blue", buttonClicked); // If click close the pop up
+            const cancelButton = new Button("Cancel", "red", enableWindow); // If click close the pop up
+            const confirmButton = new Button("Confirm", "green", buttonClicked); // If click close the pop up
+
+            var text = "This is a native js alert with three button";
+            const alerte = new Alert("Javascript alert", text, "white", [confirmButton, editButton, cancelButton ]);
+
+            new window.alert(alerte);
+        }
+
+        function crazyAlert(){
+            const editButton = new Button("Edit", "blue", buttonClicked); // If click close the pop up
+            const cancelButton = new Button("Cancel", "red", enableWindow); // If click close the pop up
+            const confirmButton = new Button("Confirm", "green", buttonClicked); // If click close the pop up
+
+            var text = "This is a native js alert with three button";
+            const alerte = new Alert("Javascript alert", text, "yellow", [confirmButton, editButton, cancelButton, confirmButton, editButton, editButton ]);
+
+            new window.alert(alerte);
+        }
+
+        function buttonClicked(){
+            console.log("Button clicked");
+        }
+    </script>
+    <script src="alert.js"></script>
+</body>
+</html>
