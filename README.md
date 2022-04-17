@@ -37,6 +37,32 @@ class Alert {
 
 Title est le titre qui sera affiché en haut de la popup, c'est une chaine de charactères. Text est le contenu du message de la popup, il est lui aussi sous chaine de charactère. BackgroundColor est la couleur de la pop up, on saisi alors la couleur sous forme de chaine (ex: "red", "yellow", "green"). Buttons finnalement est un tableau d'objets buttons.
 
+```JS
+class Button {
+    constructor(name, color, action) {
+        this.name = name;
+        this.color = color;
+        this.action = action
+    }
+}
+```
+Pour personnaliser les différents boutons, on utilise la classe Button. On peut alors choisir le texte du bouton, la couleur de ce texte et enfin l'action qu'il va appeler.
+
+![image](https://user-images.githubusercontent.com/67638928/163709577-556b63d7-79ee-4a8a-9a18-029913c1f843.png)
+
+Pour créer cette popup on a juste à appeller la méthode alert comme ceci :
+
+```JS
+            const cancelButton = new Button("Cancel", "red", enableWindow); // If click close the pop up
+            const confirmButton = new Button("Confirm", "green", buttonClicked); // If click close the pop up
+
+            var text = "This is a native js alert with two buttons";
+            const alerte = new Alert("Javascript alert", text, "white", [cancelButton, confirmButton]);
+
+            new window.alert(alerte);
+
+```
+
 ### Autres
 
 Il y a **deux type de résultats** pour cette méthode, HttpResult et HttpResult<T>. HttpResult est construit de la manière suivante :
