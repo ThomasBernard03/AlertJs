@@ -1,5 +1,6 @@
 # Javascript alert
 [![forthebadge](https://img.shields.io/github/languages/code-size/ThomasBernard03/AlertJs)](https://github.com/ThomasBernard03/AlertJs)
+![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/ThomasBernard03/AlertJs)
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
