@@ -23,6 +23,11 @@ Le principe de ce repository est de proposer une solution personnalisable et ré
 
 ### Utilisation
 
+Il est important d'avoir une balise style dans la page Html afin que le script puisse créer les éléments
+```HTML
+<style></style>
+```
+
 Pour pouvoir créer un composant personnalisable j'ai alors créé 2 classes qui nous permettent de créer notre pop up
 ```JS
 class Alert {
